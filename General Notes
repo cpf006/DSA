@@ -1,0 +1,22 @@
+Arrays:
+    len(array)
+    Getting subarray:
+        array[start:finish]
+        array[:2] (all of the start up to index 2 (not including 2))
+        array[2:] (from index 2 to end of array (including index 2))
+        array[::-1] (reverse array)
+    array.index(value) (return index of value in array, else throws exception)
+
+    mid point in array:
+        arr[len(arr) // 2]
+
+Dict:
+    
+
+String Functions to know:
+    string.isalnum() #Determines if character is alpha numaric
+
+Math functions to know:
+    abs(num) # Absolute value 
+    sum(num1, num2, ..) # Sum values
+

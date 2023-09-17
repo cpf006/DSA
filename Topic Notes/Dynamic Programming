@@ -1,0 +1,14 @@
+Memoization:
+
+
+Tabulation:
+
+
+
+
+
+Problems fibonacci fib(n) = fib(n-1) + fib(n-2)
+fib(1) = 1, fib(2) = 1
+
+Recursive function takes a ton of time
+fib

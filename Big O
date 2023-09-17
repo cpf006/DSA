@@ -1,0 +1,62 @@
+## EXAMPLE 9
+When finding big O, use the largest term
+    O(2N) = O(N), O()
+
+ecursive function with multiple branches is typically
+O(branches ^ depth)
+
+for the example of:
+int sum(Node node) {
+    if (node == null) {
+        return 0;
+    return sum(node.left) + node.value + sum(node.right);
+}
+The depth is a balanced binary search tree which results in
+N depth
+
+this is O(2^(log(N))) which simplifies to O(N)
+
+## EXAMPLE 10
+boolean isPrime(int n) {
+    for (int x = 2; x * x <= n; x++) {
+        if (n % x == 0) {
+            return false;
+        }
+    }
+    return true;
+}
+
+My theory,
+    x*x interator would be oposite of exponential
+
+    O(log(N))
+
+Book:
+    WRONG! the loop can be simplified to 
+boolean isPrime(int n) {
+    for (int x= 2; x =< sqrt(n); x++) { 
+        if (n % X== 0) {
+            return false;
+        }
+    }
+
+    return true;
+}
+
+which is O(sqrt(N))
+
+
+## EXAMPLE 11
+int factorial(int n) {
+    if (n < 0) {
+        return -1;
+    } else if (n 0) { 
+        return 1;
+    } else {
+        return n * factorial(n - 1);
+    }
+}
+
+This is O(N)
+
+## EXAMPLE 12
