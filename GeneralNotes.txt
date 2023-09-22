@@ -11,7 +11,11 @@ Arrays:
         arr[len(arr) // 2]
 
 Dict:
-    
+    dictionary.values()
+    dictionary.keys()
+
+    sort by value:
+        sorted(counts, key=counts.get, reverse=True)
 
 String Functions to know:
     string.isalnum() #Determines if character is alpha numaric
